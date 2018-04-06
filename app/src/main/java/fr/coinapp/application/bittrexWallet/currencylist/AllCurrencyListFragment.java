@@ -138,6 +138,7 @@ public class AllCurrencyListFragment extends Fragment implements SwipeRefreshLay
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
+                Log.d("DEBUG", "");
                 getQuickSearch();
             }
         }, new afterTaskFailure() {
